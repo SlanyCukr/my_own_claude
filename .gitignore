@@ -1,0 +1,40 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Local settings (user-specific)
+.claude/settings.local.json
+
+# Agent logs and runtime
+.claude/agent-logs/
+.claude/file-history/
+.claude/todos/
+.claude/shell-snapshots/
+.claude/statsig/
+.claude/subagent-conversations/
+.claude/projects/
+.claude/local/
+
+# Credentials
+.credentials.json
+
+# History
+.claude/history.jsonl
+
+# Audio files
+*.wav
